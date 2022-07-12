@@ -20,7 +20,7 @@ export default function Formulario(props: FormularioProps){
         <div>
 
             {id ? (
-                <Entrada texto="Código" valor={id} tipo="text" className="mb-5" somenteLeitura />
+                <Entrada texto="ID" valor={id} tipo="text" className="mb-5" somenteLeitura />
             ) : false}
 
             <Entrada texto="Nome" tipo="text" valor={nome} valorMudou={setNome} className="mb-5"/>
